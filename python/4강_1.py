@@ -99,7 +99,7 @@ print(abs(-3))
 print(pow(3,2))
 print(3**2)
 '''
-# 나눗3셈 : divmod(a,b) - 몫과 나머지를 모두 다 환함. 
+# 나눗셈 : divmod(a,b) - 몫과 나머지를 모두 다 환함. 
 '''
 x,y=divmod(7,2)
 print(x)

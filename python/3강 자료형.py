@@ -1,117 +1,81 @@
-Python 3.10.1 (tags/v3.10.1:2cd268a, Dec  6 2021, 19:10:37) [MSC v.1929 64 bit (AMD64)] on win32
-Type "help", "copyright", "credits" or "license()" for more information.
+#print('hi','hello')
+'''
+print('이름을 입력해주세요.')
+name=input()
+print('안녕하세요',name)
+'''
+#두 정수를 더하는 문제
+'''
+a=int(input())
+b=int(input())
+print(a+b)
+'''
+#자료형-숫자형
+'''
+a=10
+b=5
+c=2.0
+d=0.5
 
-================= RESTART: C:/Users/나예린/Desktop/python/test1.py ================
-안녕하세요.
-필요한 코드
+print(b+c)
+print(b-c)
+print(b*c)
+print(b/c)
+print(b//c)
+print(b%c)
+print(b**c)
 
-================= RESTART: C:/Users/나예린/Desktop/python/test1.py ================
-A
-B
+'''
+#자료형-논리형
+'''
+x=10
+y=-10
 
-================= RESTART: C:/Users/나예린/Desktop/python/test1.py ================
-hi hello
+print(x>0)
+print(y>0)
+print()
+print(x>y)
+print(x<y)
+print()
+print(x==10)
+print(x==y)
+print(x!=y)
+print()
+print(x>0 or y>0)
+print(x>0 and y>0)
+print()
+print(x>0)
+print(not x>0)
+'''
+'''
+#문자열형
+a=6
+b="7"
+c=3.0
 
-================= RESTART: C:/Users/나예린/Desktop/python/test1.py ================
-이름을 입력해주세요.lululu
+print(a+a)
+print()
+print(b+b)
+print(a*b)
+print()
+print("안녕하세")
+'''
 
-================= RESTART: C:/Users/나예린/Desktop/python/test1.py ================
-이름을 입력해주세요.lululu
-name
-'lululu'
+'''
+#input()으로 숫자 입력 받기
+a=int(input('숫자를 입력하세요.'))
+print(a+a)
+'''
+'''
+#실수 정수
+num=5.0
+range(int(num))
+'''
 
-================= RESTART: C:/Users/나예린/Desktop/python/test1.py ================
-이름을 입력해주세요.aaa
-안녕하세요 aaa
+a=input()
+b=int(a)
+c=float(a)
 
-================= RESTART: C:/Users/나예린/Desktop/python/test1.py ================
-이름을 입력해주세요.
-aaa
-안녕하세요 aaa
-
-================= RESTART: C:/Users/나예린/Desktop/python/test1.py ================
-이름을 입력해주세요.aaa
-안녕하세요 aaa
-
-================= RESTART: C:/Users/나예린/Desktop/python/test1.py ================
-이름을 입력해주세요.bbbaaa
-안녕하세요 aaa
-
-================= RESTART: C:/Users/나예린/Desktop/python/test1.py ================
-1
-2
-12
-
-================= RESTART: C:/Users/나예린/Desktop/python/test1.py ================
-1
-2
-3
-
-================= RESTART: C:/Users/나예린/Desktop/python/test1.py ================
-15
-5
-50
-2.0
-2
-0
-100000
-
-================= RESTART: C:/Users/나예린/Desktop/python/test1.py ================
-7.0
-3.0
-10.0
-2.5
-2.0
-1.0
-25.0
-
-================= RESTART: C:/Users/나예린/Desktop/python/test1.py ================
-True
-False
-
-True
-False
-
-True
-False
-True
-
-True
-False
-
-True
-False
-
-================= RESTART: C:/Users/나예린/Desktop/python/test1.py ================
-12
-
-77
-777777
-
-안녕하세
-
-================= RESTART: C:/Users/나예린/Desktop/python/test1.py ================
-숫자를 입력하세요.9
-99
-a
-'9'
-
-================= RESTART: C:/Users/나예린/Desktop/python/test1.py ================
-숫자를 입력하세요.9
-18
-
-================= RESTART: C:/Users/나예린/Desktop/python/test1.py ================
-
-================= RESTART: C:/Users/나예린/Desktop/python/test1.py ================
-Traceback (most recent call last):
-  File "C:/Users/나예린/Desktop/python/test1.py", line 71, in <module>
-    range(num)
-TypeError: 'float' object cannot be interpreted as an integer
-
-================= RESTART: C:/Users/나예린/Desktop/python/test1.py ================
-
-================= RESTART: C:/Users/나예린/Desktop/python/test1.py ================
-8
-<class 'str'>
-<class 'int'>
-<class 'float'>
+print(type(a))
+print(type(b))
+print(type(c))
